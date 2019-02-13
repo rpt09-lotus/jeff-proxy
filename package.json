@@ -1,0 +1,24 @@
+{
+  "name": "jeff-proxy-service",
+  "version": "1.0.0",
+  "description": "Proxy for Team Scully 9Trails project",
+  "author": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rpt09-scully/jeff-proxy-service"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
